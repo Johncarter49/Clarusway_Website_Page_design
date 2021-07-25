@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* -----header------ */
+.header{
+    height: 5%;
+    width: 100%;
+    background-color: rgb(66, 62, 62);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 2%;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    flex: 1;
+    text-align: left;
+}
+.logo ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.clarusway{
+    color: rgb(154, 28, 245);
+    font-weight: 600;
+    font-size: 25px;
+}
+.web_design{
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;    
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li a:hover{
+    /* width: 100%; */
+    color: rgb(154, 28, 245);
+
+}
+hr{
+    height: 4px;
+    background-color: rgb(154, 28, 245);
+    border: 0;
+
+}
+/*--------- professional Web Design ----- */
+.professional{
+    width: 100%;
+    color: #fff;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/showcase.jpg);
+    background-position: center;
+    /* background-size: cover; */
+    position: absolute;
+    text-align: center;
+    height: 28%;
+    padding-top: 10%;
+}
+.professional h1{
+    font-size: 40px;
+}
+.professional p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
