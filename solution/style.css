@@ -8,13 +8,13 @@
     height: 5%;
     width: 100%;
     background-color: rgb(66, 62, 62);
-    background-position: center;
-    background-size: cover;
-    position: relative;
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* position: relative; */
 }
 nav{
     display: flex;
-    padding: 2% 2%;
+    padding: 1% 2%;
     justify-content: space-between;
     align-items: center;
 }
@@ -25,7 +25,7 @@ nav{
 .logo ul li{
     list-style: none;
     display: inline-block;
-    position: relative;
+    /* position: relative; */
 }
 .clarusway{
     color: rgb(154, 28, 245);
@@ -45,7 +45,7 @@ nav{
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
-    position: relative;
+    /* position: relative; */
 }
 .nav-links ul li a{
     color: #fff;
@@ -70,10 +70,12 @@ hr{
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/showcase.jpg);
     background-position: center;
     /* background-size: cover; */
-    position: absolute;
+    /* position: absolute; */
     text-align: center;
     height: 28%;
-    padding-top: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    /* position: relative; */
 }
 .professional h1{
     font-size: 40px;
@@ -81,5 +83,79 @@ hr{
 .professional p{
     margin: 10px 0 40px;
     font-size: 14px;
+    color: #fff;
+}
+
+/* -----Subscribe ----- */
+.subscribe{
+    background-color: rgb(66, 62, 62);
+    /* height: 5%; */
+    width: 96%;
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* position: absolute; */
+    display: flex;
+    padding: 1% 2%;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.subscribe h3{
+    color: #fff;
+}
+.subscribe .subscribe_btn{
+    padding-right: 1%;
+    font-size: 25px;
+}
+.subscribe button{
+    color: #fff;
+    background-color: #f44336;
+    padding: 2px;
+    cursor: pointer;
+}
+
+/* ---- advertising ----- */
+.advertising{
+    width: 100%;
+    margin-bottom: 5px;
+    padding-top: 100px;
+    text-align: center;
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* position: relative; */
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
+.row{
+    /* margin-top: 0; */
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 10px; */
+}
+.advertising-col{
+    flex-basis: 31%;
+    background: #fff3f3dc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px 12px;
+    transition: 0.5s;
+    margin-top: 5px;
+}
+.advertising-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+.advertising-col p{
+    font-size: 16px;
+}
+/* -----footer ------- */
+
+.footer{
+    height: 5%;
+    width: 100%;
+    background-color: rgb(66, 62, 62);
+    /* background-position: center; */
+    /* background-size: cover; */
+    position: relative;
+    text-align: center;
     color: #fff;
 }
