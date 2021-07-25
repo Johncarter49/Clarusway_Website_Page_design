@@ -111,6 +111,7 @@ hr{
     background-color: #f44336;
     padding: 2px;
     cursor: pointer;
+    border: none;
 }
 
 /* ---- advertising ----- */
@@ -149,7 +150,7 @@ hr{
 }
 /* -----footer ------- */
 
-.footer{
+footer{
     height: 5%;
     width: 100%;
     background-color: rgb(66, 62, 62);
@@ -157,5 +158,74 @@ hr{
     /* background-size: cover; */
     position: relative;
     text-align: center;
+    align-items: center;
     color: #fff;
+    float: bottom;
+}
+
+/* ------About Us--------- */
+
+.about_body{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25%;
+    margin: 15px 15px 25% 25px;
+}
+.about_us h2{
+    margin-bottom: 15px;
+}
+.alt_menu{
+    background-color: rgb(68, 67, 67);
+    color: #fff;
+    padding: 15px 8px;
+}
+.what_we{
+    background-color: rgb(68, 67, 67);
+    color: #fff;
+    margin-left: 15px;
+    padding-bottom: 0;
+    padding-top: 25px;
+    margin-bottom: 0;
+}
+
+/* ------- Services ----- */
+
+/* .col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+.services-row{
+    background-color: rgb(247, 244, 244);
+    margin: 5px 5px;
+    text-align: left;
+    border-radius: 10px;
+}
+.services-row:hover{
+    cursor: pointer;
+}
+
+/* --------Quote --------------- */
+
+.Quote{
+    background-color: rgb(66, 62, 62);
+    color: #fff;
+    width: 50%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.quote_form{
+    width: 80%;
+    margin-left: 10px;
+}
+.quote_submit{
+    background-color: #f44336;
+    color: #fff;
+    margin: 10px;
+    padding: 6px;
+    box-shadow: none;
+}
+.general-row{
+    display: flex;
+    justify-content: space-between;
 }
